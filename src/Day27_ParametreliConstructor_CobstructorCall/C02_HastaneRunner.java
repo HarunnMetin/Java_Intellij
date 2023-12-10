@@ -14,9 +14,13 @@ public class C02_HastaneRunner {
         personel1.personelTelefonu = "024204240";
         personel1.personelIsmi = "Ahmet";
         System.out.println(personel1.personelIsmi);
+        System.out.println("***********************");
 
         C01_Hastane personel2 = new C01_Hastane();
-        
+
+        System.out.println(personel2.personelTelefonu);
+        System.out.println(personel2.personelIsmi);
+
 
     }
 }
