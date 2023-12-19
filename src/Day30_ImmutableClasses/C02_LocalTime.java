@@ -24,5 +24,10 @@ public class C02_LocalTime {
         System.out.println(time1.isBefore(time2));
         System.out.println(time1.isAfter(time2));
 
+        LocalTime time3 = LocalTime.MIN;
+        System.out.println(time3);
+
+
+
     }
 }
