@@ -12,5 +12,6 @@ public class C02_SatinAlma {
         System.out.println(pazarlama.toplamSatis);
          */
 
+
     }
 }
