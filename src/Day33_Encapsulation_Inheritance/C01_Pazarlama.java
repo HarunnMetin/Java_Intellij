@@ -8,4 +8,13 @@ public class C01_Pazarlama {
     public int getToplamSatis() {
         return toplamSatis;
     }
+
+    public void setSatis(int satis) {
+        this.satis = satis;
+        toplamSatisaEkle();
+
+    }
+    private void  toplamSatisaEkle(){
+        toplamSatis += satis;
+    }
 }
