@@ -22,4 +22,5 @@ public abstract class F_Hemsire extends E_Doktor{
 
         System.out.println("var");
     }
+    public abstract void vardiya();
 }

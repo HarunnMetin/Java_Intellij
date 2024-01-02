@@ -23,4 +23,8 @@ public class E_Doktor extends D_Personel{
     public void ozelSigorta() {
         System.out.println("yaptirabilir");
     }
+
+    public void doktorSayisi() {
+
+    }
 }

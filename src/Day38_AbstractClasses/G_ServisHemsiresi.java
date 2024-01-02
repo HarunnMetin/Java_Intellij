@@ -12,4 +12,9 @@ public class G_ServisHemsiresi extends F_Hemsire{
     public void nobet() {
 
     }
+
+    @Override
+    public void vardiya() {
+
+    }
 }
