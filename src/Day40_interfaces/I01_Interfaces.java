@@ -1,4 +1,4 @@
-package Day39_interfaces;
+package Day40_interfaces;
 
 public interface I01_Interfaces {
 

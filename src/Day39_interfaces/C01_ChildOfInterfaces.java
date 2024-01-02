@@ -24,4 +24,16 @@ public class C01_ChildOfInterfaces extends A_Hayvan implements I02_Interfaces {
     public String method3() {
         return null;
     }
+
+    public static void main(String[] args) {
+
+        System.out.println(sayi4);
+        System.out.println(sayi1);
+        System.out.println(sayi8);
+        System.out.println(I02_Interfaces.sayi1);
+        System.out.println(I02_Interfaces.sayi4);
+        System.out.println(I02_Interfaces.sayi8);
+
+
+    }
 }
