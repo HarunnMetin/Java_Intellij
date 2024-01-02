@@ -10,6 +10,7 @@ public abstract class A_KuralciParent {
     }
     public abstract void method3();
     public abstract void method4();
+    public abstract void method5();
 
 
 }

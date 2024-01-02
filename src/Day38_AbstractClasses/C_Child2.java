@@ -12,4 +12,9 @@ public class C_Child2 extends A_KuralciParent{
     public void method4() {
 
     }
+
+    @Override
+    public void method5() {
+
+    }
 }
