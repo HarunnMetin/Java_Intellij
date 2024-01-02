@@ -4,6 +4,10 @@ public class C02_ChildOfI01 implements I01_Interfaces{
     @Override
     public void method1() {
 
+
+        int sayi = 1;
+        int sayi2 = 2;
+        String str = "Basarilacakk";
     }
 
     @Override
