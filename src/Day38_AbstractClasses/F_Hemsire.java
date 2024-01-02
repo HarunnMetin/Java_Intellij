@@ -1,6 +1,6 @@
 package Day38_AbstractClasses;
 
-public abstract class F_Hemsire extends D_Personel{
+public abstract class F_Hemsire extends E_Doktor{
 
 
     public abstract void sertifika();

@@ -1,2 +1,15 @@
-package Day38_AbstractClasses;public class G_ServisHemsiresi {
+package Day38_AbstractClasses;
+
+public class G_ServisHemsiresi extends F_Hemsire{
+
+
+    @Override
+    public void sertifika() {
+
+    }
+
+    @Override
+    public void nobet() {
+
+    }
 }
