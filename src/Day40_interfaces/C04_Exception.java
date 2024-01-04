@@ -43,9 +43,10 @@ public class C04_Exception {
                 char girilenYanlisHarf = scanner.next().charAt(0);
                 if (girilenYanlisHarf == 'Q' || girilenYanlisHarf == 'q'){
                     System.out.println("girdiginiz sayilarin toplami :" + toplam);
+                    break;
                 }
                 else {
-                    System.out.println("yanlis input program kapatiliyor");
+                    System.out.println("yanlis input lutfen bir sayi giriniz");
                 }
 
             }
