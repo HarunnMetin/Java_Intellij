@@ -24,6 +24,8 @@ public interface I01_Interfaces {
 
 
         System.out.println(C01_ChildOfInterfaces.sayi4);
+        System.out.println(C01_ChildOfInterfaces.sayi8);
+        System.out.println(C01_ChildOfInterfaces.sayi1);
 
     }
 }
