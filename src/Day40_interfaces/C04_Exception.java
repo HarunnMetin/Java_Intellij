@@ -31,6 +31,26 @@ public class C04_Exception {
             }
         }
 
+        for (int i = 0; i < 100000; i++) {
+
+            try {
+                System.out.println("lutfen toplanmak uzere sayilar giriniz");
+                int girilenSyilar = scanner.nextInt();
+                toplam += girilenSyilar;
+
+            }catch (InputMismatchException e){
+
+                char girilenYanlisHarf = scanner.next().charAt(0);
+                if (girilenYanlisHarf == 'Q' || girilenYanlisHarf == 'q'){
+                    System.out.println("girdiginiz sayilarin toplami :" + toplam);
+                }
+                else {
+                    System.out.println("yanlis input program kapatiliyor");
+                }
+
+            }
+        }
+
 
     }
 }
