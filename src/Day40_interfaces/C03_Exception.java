@@ -15,14 +15,21 @@ public class C03_Exception {
 
         int sayi1 = scanner.nextInt();
         int sayi2 = scanner.nextInt();
-        int sonuc = 0;
 
+        try {
+            System.out.println(sayi1/sayi2);
+        } catch (ArithmeticException e) {
+
+            System.out.println("ikinci sayi sifir olama");
+        }
+        /*
         if (sayi2 == 0){
             System.out.println("ikinci sayi sifir olama");
         }
         else {
             System.out.println(sayi1/sayi1);
         }
+        */
 
 
 
