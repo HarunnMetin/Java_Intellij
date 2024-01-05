@@ -39,5 +39,24 @@ public class C02_MultipleException {
 
             System.out.println("girilen index arrayin sinirlari disinda ");
         }
+
+
+        System.out.println("****************************");
+
+        try {
+            girilenIndex = scanner.nextInt();
+            System.out.println(str.charAt(girilenIndex));
+            System.out.println(arr[girilenIndex]);
+        }
+        catch (InputMismatchException a){
+            System.out.println("sizden sayi istedim");
+        }
+        catch (StringIndexOutOfBoundsException a){
+            System.out.println("girilen index string sinirlari disinda");
+        }
+        catch (ArrayIndexOutOfBoundsException a){
+            System.out.println("girilen index arrayin sinirlari disinda ");
+        }
+
     }
 }
