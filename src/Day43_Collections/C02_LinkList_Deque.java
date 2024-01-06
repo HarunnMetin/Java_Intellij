@@ -17,9 +17,19 @@ public class C02_LinkList_Deque {
         isimler.add("eyub");
         isimler.add("kaan");
 
+        System.out.println(isimler.hashCode());
         System.out.println(isimler.pollFirst());
         System.out.println(isimler.pop());
         System.out.println(isimler.offerFirst("bugra"));
+        System.out.println(isimler.peekFirst());
+        System.out.println(isimler.element());
+        System.out.println("silmeden once isimler listesi :" +isimler);
+        System.out.println(isimler.size());
+        isimler.clear();
+        System.out.println(isimler.hashCode());
+        System.out.println("***********************************");
+        isimler.add("hatice");
+        System.out.println(isimler.hashCode());
 
         //System.out.println(isimler.removeLast());
 
