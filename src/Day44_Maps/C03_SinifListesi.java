@@ -22,7 +22,7 @@ public class C03_SinifListesi {
         ogrenciSinifSube.put(108,"Sevgi-Can-10-K-MF");
         ogrenciSinifSube.put(109,"Adem-Can-10-K-MF");
 
-        MethodDeposu.sinifSubedekiOgrenciListesiYazdir(ogrenciSinifSube , 10,"h");
+        MethodDeposu.sinifSubedekiOgrenciListesiYazdir(ogrenciSinifSube , 11,"h");
 
 
     }
