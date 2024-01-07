@@ -36,10 +36,23 @@ public class MethodDeposu {
         }
     }
 
-    public static void sinifSubeMap(Map<Integer, String> ogrenciMap , int sinif , String sube){
+    public static void sinifSubedekiOgrenciListesiYazdir(Map<Integer, String> ogrenciMap , int sinif , String sube){
+
 
         Collection<String> sinifSube = ogrenciMap.values();
+        String sinifstr = sinif + "";
+        int siraNo = 1;
+        for (String eachValue: sinifSube) {
+
+            String[] valueArr = eachValue.split("-");
+            if (valueArr[2].equals(sinifstr) && valueArr[3].equalsIgnoreCase(sube)){
+
+                System.out.println(siraNo+ " - " + valueArr[0] +" "+ valueArr[1]);
+                siraNo++;
+            }
+        }
 
 
     }
+
 }
