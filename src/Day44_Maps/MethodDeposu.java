@@ -16,6 +16,9 @@ public class MethodDeposu {
         ogrenciMap.put(104,"Ayse-Can-10-10-H-MF");
         ogrenciMap.put(105,"Sevgi-Cem-11-M-TM");
         ogrenciMap.put(106,"Sevgi-Can-10-K-MF");
+        ogrenciMap.put(107,"Sevgi-Can-11-K-TM");
+        ogrenciMap.put(108,"Sevgi-Can-9-K-MF");
+        ogrenciMap.put(109,"Sevgi-Can-9-K-TM");
 
         return ogrenciMap;
     }
@@ -51,8 +54,23 @@ public class MethodDeposu {
                 siraNo++;
             }
         }
+    }
+    public static void isimSoyisimYazdirSubeSinifYazdir(Map<Integer,String> ogrenciMap, String isim, String soyisim){
 
+        Collection<String> ogrenciMap1 = ogrenciMap.values();
+        int siraNo = 1;
+        for (String eachOgrenciIsimSoyism: ogrenciMap1) {
 
+            String[] isimSoyisimArr = eachOgrenciIsimSoyism.split("-");
+
+            if (isimSoyisimArr[0].equalsIgnoreCase(isim) && isimSoyisimArr[1].equalsIgnoreCase(soyisim)){
+
+                System.out.println(siraNo + " - "+isimSoyisimArr[0] +"-"+ isimSoyisimArr[1] +"-"+isimSoyisimArr[2]+"-"+ isimSoyisimArr[3]);
+                siraNo++;
+
+            }
+
+        }
     }
 
 }
