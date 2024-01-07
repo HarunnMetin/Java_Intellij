@@ -34,6 +34,12 @@ public class MethodDeposu {
             siraNo++;
 
         }
+    }
+
+    public static void sinifSubeMap(Map<Integer, String> ogrenciMap , int sinif , String sube){
+
+        Collection<String> sinifSube = ogrenciMap.values();
+
 
     }
 }
