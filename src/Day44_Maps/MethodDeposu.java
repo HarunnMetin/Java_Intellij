@@ -69,8 +69,18 @@ public class MethodDeposu {
                 siraNo++;
 
             }
-
         }
+    }
+    public static void numaraIleOgrenciBilgisiYazdirma(Map<Integer,String> ogrenciMap , int ogrenciNo){
+
+        String istenenOgrenciBilgileriYazdirma = ogrenciMap.get(ogrenciNo);
+        String[] istenenOgrenciArr = istenenOgrenciBilgileriYazdirma.split("-");
+
+        System.out.println("Isim : " + istenenOgrenciArr[0] +
+                           "\nSoyisim : "+ istenenOgrenciArr[1]+
+                           "\nSinif : " + istenenOgrenciArr[2]+
+                           "\nSube : " + istenenOgrenciArr[3]);
+
     }
 
 }
