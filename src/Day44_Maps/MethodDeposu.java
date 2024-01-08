@@ -2,6 +2,7 @@ package Day44_Maps;
 
 import java.util.Collection;
 import java.util.Map;
+import java.util.Set;
 import java.util.TreeMap;
 
 public class MethodDeposu {
@@ -80,6 +81,20 @@ public class MethodDeposu {
                            "\nSoyisim : "+ istenenOgrenciArr[1]+
                            "\nSinif : " + istenenOgrenciArr[2]+
                            "\nSube : " + istenenOgrenciArr[3]);
+
+    }
+    public static void numaraliOgrenciListesiYazdir(Map<Integer,String> ogrenciMap){
+
+        Set<Integer> ogrenciKeySeti = ogrenciMap.keySet();
+
+        for (Integer eacKey : ogrenciKeySeti) {
+
+            System.out.print(eacKey + " - ");
+            String valueStr = ogrenciMap.get(eacKey);
+            String[] valueArr = valueStr.split("-");
+
+            System.out.println(valueArr[0] +" "+ valueArr[1]);
+        }
 
     }
 

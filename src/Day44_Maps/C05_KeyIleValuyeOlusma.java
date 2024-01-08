@@ -12,5 +12,8 @@ public class C05_KeyIleValuyeOlusma {
         System.out.println(ogrenciMap.get(109));
         System.out.println(ogrenciMap.get(232));
         MethodDeposu.numaraIleOgrenciBilgisiYazdirma(ogrenciMap,101);
+        MethodDeposu.numaraIleOgrenciBilgisiYazdirma(ogrenciMap,104);
+        MethodDeposu.numaraIleOgrenciBilgisiYazdirma(ogrenciMap,106);
+        MethodDeposu.numaraIleOgrenciBilgisiYazdirma(ogrenciMap,109);
     }
 }
