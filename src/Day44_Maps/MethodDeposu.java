@@ -14,12 +14,12 @@ public class MethodDeposu {
         ogrenciMap.put(101,"Ali-Can-11-H-MF");
         ogrenciMap.put(102,"Veli-Cem-11-H-MF");
         ogrenciMap.put(103,"Ali-Cem-11-K-TM");
-        ogrenciMap.put(104,"Ayse-Can-10-10-H-MF");
+        ogrenciMap.put(104,"Ayse-Can-10-H-MF");
         ogrenciMap.put(105,"Sevgi-Cem-11-M-TM");
         ogrenciMap.put(106,"Sevgi-Can-10-K-MF");
-        ogrenciMap.put(107,"Sevgi-Can-11-K-TM");
+        ogrenciMap.put(107,"Sevgi-Can-11-H-TM");
         ogrenciMap.put(108,"Sevgi-Can-9-K-MF");
-        ogrenciMap.put(109,"Sevgi-Can-9-K-TM");
+        ogrenciMap.put(109,"Sevgi-Can-9-H-TM");
 
         return ogrenciMap;
     }
