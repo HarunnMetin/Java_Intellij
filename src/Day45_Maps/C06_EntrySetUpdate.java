@@ -14,6 +14,7 @@ public class C06_EntrySetUpdate {
         //Sinif ssubesi H olan ogrencilerin subesini T yapin
 
         Set<Map.Entry<Integer,String>> sinifSubesiSeti = ogrenciMap.entrySet();
+        System.out.println(ogrenciMap);
 
         for (Map.Entry<Integer,String> eachEntryValue: sinifSubesiSeti) {
 
