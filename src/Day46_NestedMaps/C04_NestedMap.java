@@ -16,7 +16,6 @@ public class C04_NestedMap {
          */
         Map<Integer,Map<String,Object>> ogrenciMap = new HashMap<>();
 
-
         Map<String,Object> ogrenci101Bilgileri = new HashMap<>();
         ogrenci101Bilgileri.put("isim","Ali");
         ogrenci101Bilgileri.put("soyism","Can");
